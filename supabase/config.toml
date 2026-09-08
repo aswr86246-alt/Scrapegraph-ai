@@ -1,0 +1,3 @@
+[functions.scrape]
+verify_jwt = false
+entrypoint = "./functions/scrape/index.ts"
