@@ -1,3 +1,7 @@
 [functions.scrape]
 verify_jwt = false
 entrypoint = "./functions/scrape/index.ts"
+
+[functions.find-businesses]
+verify_jwt = false
+entrypoint = "./functions/find-businesses/index.ts"
